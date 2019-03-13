@@ -2,8 +2,9 @@ package test1;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Controller;
 
-@Component("b1")
+@Controller("b1")
 public class B {
     //@Value("1")
     @Value("${id111}")
